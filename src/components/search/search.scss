@@ -1,0 +1,38 @@
+.search {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    border-bottom: 1px solid grey;
+
+    .userForm {
+        overflow: hidden;
+        padding: 10px;
+        .inputText {
+            background-color: transparent;
+            border: none;
+            outline: none;
+            width: 100%;
+            color: white;
+            &::placeholder{
+                color: rgb(148, 143, 143);
+            }
+        }
+    }
+    .userChat {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        padding: 10px;
+        color: white;
+        cursor:pointer;
+        &:hover{
+            background-color: rgb(44, 18, 56);
+        }
+        img{
+            height: 40px;
+            width: 40px;
+            border-radius: 50px;
+            object-fit: cover;
+        }
+    }
+}

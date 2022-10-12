@@ -1,0 +1,42 @@
+.input{
+    height: 50px;
+    padding: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    input{
+        width: 100%;
+        padding: 1px;
+        border: none;
+        outline: none;
+        font-size: 18px;
+        color: rgb(55, 36, 61);
+        &::placeholder{
+            color: lightgrey;
+        }
+    }
+    .send{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 25px;
+        gap: 10px;
+
+        color: grey;
+        i{
+            cursor: pointer;
+            padding: 5px;
+        }
+        button{
+            border: none;
+            color: aliceblue;
+            background-color: rgb(55, 36, 61);
+            border-radius: 5px;
+            padding: 10px 15px;
+            cursor: pointer;
+        }
+    }
+    
+}

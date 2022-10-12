@@ -1,0 +1,31 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+    justify-content: space-between;
+    height: 50px;
+    color: aliceblue;
+    font-family:'Poppins', sans-serif;
+    background-color: rgb(29, 13, 29);
+    .logo{
+        font-weight: 700;
+        font-size: 20px;
+    }
+    .userInfo{
+        display: flex;
+        gap: 10px;
+        button{
+            border: none;
+            border-radius: 4px;
+            background-color:rgb(87, 63, 87) ;
+            color:white;
+            padding: 0 8px;
+        }
+    }
+    img{
+        height: 27px;
+        width: 27px;
+        border-radius: 50px;
+        object-fit: cover;
+    }
+}

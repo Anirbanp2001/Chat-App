@@ -1,0 +1,59 @@
+.formContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(165, 128, 233);
+    height: 100vh;
+
+    .formWrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        padding: 20px 60px;
+        gap: 15px;
+        border-radius: 15px;
+        .logo{
+            font-size: 35px;
+            color:rgb(165, 128, 233);
+            font-family: 'Archivo', sans-serif;
+        }
+        .title{
+            font-size: 15px;
+            color:rgb(100, 55, 185);
+            font-family:'Poppins', sans-serif;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            input{
+                border: none;
+                border-bottom: 1px solid rgb(178, 162, 199);
+                width:250px;
+                padding: 10px;
+                &::placeholder{
+                    color:rgb(165, 160, 160)
+                }
+            }
+            input:focus{
+                outline: none;
+            }
+            
+            button{
+                background-color:rgb(165, 128, 233) ;
+                padding: 10px;
+                color: white;
+                cursor: pointer;
+                border: none;
+                border-radius: 6px;
+            }
+        }
+        p{
+            color:rgb(136, 133, 133);
+            font-size: 15px;
+        }
+
+    }
+}
